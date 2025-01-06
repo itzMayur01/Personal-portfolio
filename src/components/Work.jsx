@@ -36,7 +36,7 @@ const Work = () => {
       imgSrc: "/images/project-6.jpg",
       title: "Mayur kumar - Personal portfolio",
       tags: ["react", "js", "tailwindCSS", "html", "lenis", "gsap"],
-      projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
+      projectLink: "https://mayurkumar.vercel.app/",
     },
   ];
   return (
