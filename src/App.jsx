@@ -20,9 +20,9 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { element } from "prop-types";
 function App() {
-  useEffect(() => {
-    document.body.style.zoom = "87%";
-  }, []);
+  // useEffect(() => {
+  //   document.body.style.zoom = "100%";
+  // }, []);
 
   useGSAP(() => {
     const elements = gsap.utils.toArray(".reveal-up");
@@ -30,8 +30,8 @@ function App() {
       gsap.to(element, {
         scrollTrigger: {
           trigger: element,
-          start: "-80 bottom",
-          end: "bottom 98%",
+          start: "-100 bottom",
+          end: "bottom 100%",
           scrub: true,
         },
         y: 0,
