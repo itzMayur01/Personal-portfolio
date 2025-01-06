@@ -45,7 +45,7 @@ const Review = () => {
         start: "60% 80%",
         end: "150% 40%",
         scrub: true,
-        markers: "true",
+        // markers: "true",
       },
       x: "-900",
     });
