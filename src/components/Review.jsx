@@ -42,9 +42,10 @@ const Review = () => {
     gsap.to(".scrub-slide", {
       scrollTrigger: {
         trigger: ".scrub-slide",
-        start: "60% 70%",
-        end: "200% 100%",
+        start: "60% 80%",
+        end: "150% 40%",
         scrub: true,
+        markers: "true",
       },
       x: "-900",
     });
