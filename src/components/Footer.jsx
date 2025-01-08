@@ -34,7 +34,7 @@ const Footer = () => {
       href: "https://www.linkedin.com/in/mayur-kumar-043753199/",
     },
     {
-      label: "Twitter X",
+      label: "Facebook",
       href: "https://www.facebook.com/profile.php?id=100007359074352",
     },
     {
