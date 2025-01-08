@@ -70,7 +70,7 @@ const Navbar = ({ navOpen }) => {
     </nav>
   );
 };
-Navbar.PropTypes = {
+Navbar.propTypes = {
   navOpen: PropTypes.bool.isRequired,
 };
 export default Navbar;
